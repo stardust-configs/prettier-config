@@ -1,0 +1,33 @@
+{
+  "name": "@stardust-configs/prettier-config",
+  "version": "0.1.0",
+  "description": "Shareable Prettier config",
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "homepage": "https://github.com/stardust-configs/prettier-config#readme",
+  "bugs": "https://github.com/stardust-configs/prettier-config/issues",
+  "license": "MIT",
+  "author": "P-Chan",
+  "files": [
+    ".prettierrc"
+  ],
+  "main": ".prettierrc",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stardust-configs/prettier-config.git"
+  },
+  "scripts": {
+    "version": "standard-version",
+    "release": "dotenv -- conventional-github-releaser -p angular"
+  },
+  "devDependencies": {
+    "conventional-github-releaser": "^3.1.5",
+    "dotenv-cli": "^4.0.0",
+    "standard-version": "^9.1.0"
+  },
+  "peerDependencies": {
+    "prettier": "^2.0.0"
+  }
+}
