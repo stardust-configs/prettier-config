@@ -5,7 +5,7 @@ const fs = require('fs')
 const migrate = require('json-schema-migrate')
 const path = require('path')
 
-const configFileName = '.prettierrc'
+const configFileName = '.prettierrc.json'
 const configFilePath = path.resolve(process.cwd(), configFileName)
 const jsonSchemaURL = 'https://json.schemastore.org/prettierrc'
 

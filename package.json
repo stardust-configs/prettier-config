@@ -11,9 +11,9 @@
   "license": "MIT",
   "author": "P-Chan",
   "files": [
-    ".prettierrc"
+    ".prettierrc.json"
   ],
-  "main": ".prettierrc",
+  "main": ".prettierrc.json",
   "repository": {
     "type": "git",
     "url": "https://github.com/stardust-configs/prettier-config.git"
