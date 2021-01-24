@@ -19,6 +19,7 @@
     "url": "https://github.com/stardust-configs/prettier-config.git"
   },
   "scripts": {
+    "validate": "node validator",
     "version": "standard-version",
     "release": "dotenv -- conventional-github-releaser -p angular"
   },
