@@ -23,8 +23,12 @@
     "release": "dotenv -- conventional-github-releaser -p angular"
   },
   "devDependencies": {
+    "ajv": "^7.0.3",
+    "consola": "^2.15.0",
     "conventional-github-releaser": "^3.1.5",
     "dotenv-cli": "^4.0.0",
+    "json-schema-migrate": "^1.0.0",
+    "node-fetch": "^2.6.1",
     "standard-version": "^9.1.0"
   },
   "peerDependencies": {
