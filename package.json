@@ -20,14 +20,10 @@
   },
   "scripts": {
     "validate": "jsv \".prettierrc.json\" --schema \"https://json.schemastore.org/prettierrc\"",
-    "version": "standard-version",
-    "release": "dotenv -- conventional-github-releaser -p angular"
+    "version": "standard-version"
   },
   "devDependencies": {
     "@stardust-configs/json-schema-validator": "^0.1.2",
-    "consola": "^2.15.0",
-    "conventional-github-releaser": "^3.1.5",
-    "dotenv-cli": "^4.0.0",
     "standard-version": "^9.1.0"
   },
   "peerDependencies": {
