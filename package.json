@@ -20,7 +20,9 @@
   },
   "scripts": {
     "validate": "jsv \".prettierrc.json\" --schema \"https://json.schemastore.org/prettierrc\"",
-    "version": "standard-version"
+    "version:major": "standard-version -r major",
+    "version:minor": "standard-version -r minor",
+    "version:patch": "standard-version -r patch"
   },
   "devDependencies": {
     "@stardust-configs/json-schema-validator": "^0.1.2",
