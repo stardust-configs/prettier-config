@@ -4,8 +4,14 @@
 
 ## Install
 
-```bash
-$ npm install @stardust-configs/prettier --save-dev
+```sh
+npm install @stardust-configs/prettier-config -D
+```
+
+or
+
+```sh
+yarn add @stardust-configs/prettier-config -D
 ```
 
 ## Usage
