@@ -11,24 +11,29 @@
   "license": "MIT",
   "author": "P-Chan",
   "files": [
-    ".prettierrc.json"
+    ".prettierrc.cjs",
+    ".prettierrc.mjs"
   ],
-  "main": ".prettierrc.json",
+  "main": ".prettierrc.cjs",
   "repository": {
     "type": "git",
     "url": "https://github.com/stardust-configs/prettier-config.git"
   },
   "scripts": {
-    "validate": "jsv \".prettierrc.json\" --schema \"https://json.schemastore.org/prettierrc\"",
     "version:major": "standard-version -r major",
     "version:minor": "standard-version -r minor",
     "version:patch": "standard-version -r patch"
   },
   "devDependencies": {
-    "@stardust-configs/json-schema-validator": "0.4.0",
     "standard-version": "9.5.0"
   },
   "peerDependencies": {
     "prettier": "^3.0.0"
-  }
+  },
+  "exports": {
+    "import": "./.prettierrc.mjs",
+    "require": "./.prettierrc.cjs"
+  },
+  "module": ".prettierrc.mjs",
+  "type": "module"
 }
